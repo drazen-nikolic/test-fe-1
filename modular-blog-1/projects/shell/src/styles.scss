@@ -1,0 +1,6 @@
+@use "tailwindcss/base" as *;
+@use "tailwindcss/components" as *;
+@use "tailwindcss/utilities" as *;
+
+// Import shared styles if needed
+@use "../../shared-lib/src/lib/styles" as shared;

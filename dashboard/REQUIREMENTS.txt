@@ -1,0 +1,92 @@
+Personalized Dashboard with Widget Customization
+(Configurable UI)
+Description (send to the candidate):
+—--------------------------------------------------------------------------
+Assignment Topic: Personalized Dashboard with Widget Customization (Configurable UI)
+Objective
+Create a personalized dashboard where users can add, remove, and configure widgets (e.g.,
+weather, to-do list, recent activity). Users should be able to drag and rearrange widgets and
+save their configuration for future sessions. Focus on building a flexible, user-configurable UI
+that allows for a personalized experience.
+Example JSON Data Model
+{
+"users": [
+{
+"userId": "u1",
+"name": "Emily Carter",
+"email": "emily.carter@example.com",
+"settings": {
+"layout": [
+{
+"widgetId": "w1",
+"position": 1
+},
+{
+"widgetId": "w2",
+"position": 2
+}
+],
+"preferences": {
+"theme": "dark",
+"showNotifications": true
+}
+}
+}
+],
+"widgets": [
+{
+"widgetId": "w1",
+"type": "Weather",
+"settings": {
+"location": "New York, NY",
+"unit": "Fahrenheit"
+},
+"content": {
+"temperature": "68°F",
+"condition": "Sunny"
+}
+},
+{
+"widgetId": "w2",
+"type": "To-Do List",
+"settings": {
+"maxItems": 5
+},
+"content": {
+"tasks": [
+{
+"taskId": "t1",
+"description": "Finish project report",
+"completed": false
+},
+{
+"taskId": "t2",
+"description": "Book flight tickets",
+"completed": true
+}
+]
+}
+},
+{
+"widgetId": "w3",
+"type": "Recent Activity",
+"settings": {
+"historyLength": 10
+},
+"content": {
+"activities": [
+"Logged in from a new device.",
+"Completed: Book flight tickets."
+]
+}
+}
+]
+}
+Preferred technologies
+Implement a solution using Angular (preferably), React or Vue.js. Implement the solution in
+TypeScript. Simulate the simple backend RESTful APIs using some Mock/Fake server like
+json-server.
+Documentation
+Write a short documentation about the concept of the solution, important decisions, and
+pros/cons of the implemented solution.
+—--------------------------------------------------------------------------

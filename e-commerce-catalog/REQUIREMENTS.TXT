@@ -1,0 +1,43 @@
+E-commerce Product Catalog with Progressive Web
+App (PWA) Features
+Description (send to the candidate):
+—--------------------------------------------------------------------------
+Assignment Topic: E-commerce Product Catalog with Progressive Web App (PWA) Features
+Objective
+Build an e-commerce product catalog where users can view and filter for products. Implement
+PWA features, such as offline support and the ability to add the application to the home screen.
+Focus on ensuring a fast, smooth, and reliable experience even in poor network conditions.
+Example JSON Data Model
+{
+"productId": "7121ea7a-3298-4d55-9a04-3e5678efa829",
+"name": "Wireless Headphones",
+"description": "Noise canceling over-ear headphones with
+30-hour battery life.",
+"price": 199.99,
+"currency": "USD",
+"category": "Electronics",
+"brand": "Jabra",
+"rating": 4.5,
+"reviewsCount": 120,
+"availability": "In Stock", // options: In Stock, Out of Stock
+"images": [
+"https://example.com/images/product1_img1.jpg",
+"https://example.com/images/product1_img2.jpg"
+],
+"tags": [
+"audio",
+"wireless",
+"headphones"
+],
+"createdAt": "2023-01-15T08:00:00Z",
+"updatedAt": "2023-10-01T10:30:00Z"
+}
+Filtering: implement just filter by category. It’s OK to have a separate API endpoint that returns
+all possible categories.
+Preferred technologies
+Implement a solution using Angular (preferably), React or Vue.js. Implement the solution in
+TypeScript. Simulate the simple backend RESTful APIs using some Mock/Fake server like
+json-server.
+Documentation
+Write a short documentation about the concept of the solution, important decisions, and
+pros/cons of the implemented solution.

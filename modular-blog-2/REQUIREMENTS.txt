@@ -1,0 +1,61 @@
+Micro-Frontend Architecture: Modular Blog Platform
+Description:
+—--------------------------------------------------------------------------
+Assignment Topic: Micro-Frontend Architecture: Modular Blog Platform
+Objective
+Build a modular blog platform using a micro-frontend architecture. The platform should have at
+least two independently developed modules: one for viewing blog posts and another for
+managing (adding/editing) blog content. The modules should be able to function independently
+and can be deployed separately but should still communicate with each other.
+Example JSON Data Model
+{
+"posts": [
+{
+"postId": "bp1",
+"title": "Introduction to Micro-Frontends",
+"content": "Micro-frontends are a way to think about the web application
+as a composition of features...",
+"authorId": "u1",
+"createdAt": "2023-10-05T14:00:00Z",
+"updatedAt": "2023-10-05T16:00:00Z",
+"tags": ["architecture", "frontend", "microservices"],
+"status": "Published" // options: Draft, Published
+},
+{
+"postId": "bp2",
+"title": "Benefits of Modular Design",
+"content": "Modular design in software development offers several key
+advantages...",
+"authorId": "u2",
+"createdAt": "2023-09-20T10:00:00Z",
+"updatedAt": "2023-09-21T08:30:00Z",
+"tags": ["design patterns", "modular", "development"],
+"status": "Draft"
+}
+],
+"users": [
+{
+"userId": "u1",
+"name": "Alice Johnson",
+"email": "alice.johnson@example.com",
+"role": "Editor"
+},
+{
+"userId": "u2",
+"name": "Bob Smith",
+"email": "bob.smith@example.com",
+"role": "Contributor"
+}
+]
+}
+Note: There is no need to define functionality for managing Users in the system. It is enough to
+have a finite set of predefined users in the mock backend API. Yet, as specified in the
+requirements, is should be possible to add, modify and delete blog posts.
+Preferred technologies
+Implement a solution using Angular (preferably), React or Vue.js. Implement the solution in
+TypeScript. Simulate the simple backend RESTful APIs using some Mock/Fake server like
+json-server.
+Documentation
+Write a short documentation about the concept of the solution, important decisions, and
+pros/cons of the implemented solution.
+—--------------------------------------------------------------------------

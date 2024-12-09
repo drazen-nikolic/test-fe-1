@@ -1,0 +1,128 @@
+.product-card {
+  box-shadow: 0 4px 8px var(--shadow-color);
+  border-radius: var(--base-radius);
+  background-color: var(--base-white);
+  padding: .5rem;
+  position: relative;
+  z-index: 1;
+  height: auto;
+
+  .product-card__availability {
+    font-size: small;
+    margin: 0;
+    text-align: right;
+
+    & .product-card__availability--indicator {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--base-red);
+      display: inline-block;
+      margin-right: .3rem;
+
+      &.available {
+        background-color: var(--base-green);
+      }
+    }
+  }
+
+  .product-card__image {
+    width: 100%;
+    opacity: 0;
+    transition: opacity .5s;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .product-card__image--error {
+    position: relative;
+
+    .product-card__image--error--message {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: small;
+      color: var(--base-red);
+    }
+  }
+
+  .product-card__name {
+    text-align: center;
+    margin: 2px 0;
+  }
+
+  .product-card__description {
+    font-size: small;
+    margin: 5px 0;
+  }
+
+  .product-card__category {
+    font-size: small;
+    color: var(--text-color-secondary);
+    margin: 0;
+  }
+
+  .product-card__brand {
+    font-size: small;
+    color: var(--text-color-secondary);
+    margin: 0;
+  }
+
+  .product-card__price {
+    margin: .5rem 0;
+    text-align: center;
+  }
+
+  .product-card__tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: small;
+    color: var(--base-blue);
+    flex-wrap: wrap;
+
+    & span {
+      margin: 0 1px;
+    }
+  }
+}
+
+.product-card--skeleton {
+  box-shadow: 0 4px 8px var(--shadow-color);
+  border-radius: var(--base-radius);
+  background-color: var(--base-white);
+  padding: .5rem;
+  position: relative;
+  z-index: 1;
+  height: auto;
+
+  & .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  svg {
+    border-radius: var(--base-radius);
+  }
+
+  & .medium {
+    margin: 6px 0;
+    height: 1.5rem;
+    border-radius: var(--base-radius);
+  }
+
+  & .small {
+    margin: 3px 0;
+    height: 1rem;
+    border-radius: var(--base-radius);
+  }
+
+  & .large {
+    margin: 10px 0;
+    height: 2rem;
+    border-radius: var(--base-radius);
+  }
+}

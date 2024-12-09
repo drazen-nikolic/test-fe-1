@@ -1,0 +1,42 @@
+<div
+  class="group block bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 p-6"
+>
+  <div class="flex justify-between items-start mb-4">
+    <h3 class="text-xl font-semibold text-gray-800">{{ post.title }}</h3>
+    <span
+      class="text-sm px-2 py-1 bg-gray-100 rounded-full text-gray-600 capitalize"
+      >{{ post.status }}</span
+    >
+  </div>
+
+  <p class="text-gray-600 mb-4 line-clamp-3">{{ post.content }}</p>
+
+  <div
+    class="flex flex-wrap gap-2 mb-4"
+    *ngIf="post.tags && post.tags.length > 0"
+  >
+    <span
+      *ngFor="let tag of post.tags"
+      class="text-xs px-2 py-1 bg-blue-50 text-blue-600 rounded-full"
+    >
+      {{ tag }}
+    </span>
+  </div>
+
+  <div class="flex justify-between items-center">
+    <div class="flex items-center text-sm text-gray-500">
+      <span class="mr-2">By</span>
+      <span class="font-medium">{{ post.author || 'Unknown Author' }}</span>
+    </div>
+    
+    <button 
+      [routerLink]="['/admin', post.postId]"
+      class="p-2 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200 opacity-0 group-hover:opacity-100"
+      aria-label="Edit post"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+      </svg>
+    </button>
+  </div>
+</div>

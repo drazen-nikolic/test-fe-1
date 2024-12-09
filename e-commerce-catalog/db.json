@@ -1,0 +1,280 @@
+{
+  "products": [
+    {
+      "productId": "7121ea7a-3298-4d55-9a04-3e5678efa829",
+      "name": "Wireless Headphones 2",
+      "description": "Noise canceling over-ear headphones with 30-hour battery life.",
+      "price": 199.99,
+      "currency": "USD",
+      "category": "Audio",
+      "brand": "Jabra",
+      "rating": 4.5,
+      "reviewsCount": 120,
+      "availability": "In Stock",
+      "images": [
+        "/images/headphones.webp"
+      ],
+      "tags": [
+        "audio",
+        "wireless",
+        "headphones"
+      ],
+      "createdAt": "2023-01-15T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "b2d2e2a1-4c5a-4b6b-8a1e-2f3d4e5f6a7b",
+      "name": "Smartphone",
+      "description": "Latest model with 128GB storage and 5G connectivity.",
+      "price": 799.99,
+      "currency": "USD",
+      "category": "Electronics",
+      "brand": "Samsung",
+      "rating": 4.7,
+      "reviewsCount": 250,
+      "availability": "Out of Stock",
+      "images": [
+        "/images/smartphone.webp"
+      ],
+      "tags": [
+        "mobile",
+        "smartphone",
+        "electronics"
+      ],
+      "createdAt": "2023-02-20T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "c3d3f3a2-5d6b-4c7c-9a2e-3f4d5e6f7a8c",
+      "name": "Laptop",
+      "description": "High-performance laptop with 16GB RAM and 512GB SSD.",
+      "price": 1299.99,
+      "currency": "USD",
+      "category": "Computers",
+      "brand": "Dell",
+      "rating": 3.6,
+      "reviewsCount": 180,
+      "availability": "In Stock",
+      "images": [
+        "/images/laptop.webp"
+      ],
+      "tags": [
+        "computer",
+        "laptop",
+        "electronics"
+      ],
+      "createdAt": "2023-03-10T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "d4e4f4a3-6e7c-4d8d-9a3e-4f5d6e7f8a9d",
+      "name": "Smartwatch",
+      "description": "Water-resistant smartwatch with heart rate monitor.",
+      "price": 299.99,
+      "currency": "USD",
+      "category": "Wearables",
+      "brand": "Apple",
+      "rating": 4.8,
+      "reviewsCount": 300,
+      "availability": "In Stock",
+      "images": [
+        "/images/watch.webp"
+      ],
+      "tags": [
+        "wearable",
+        "smartwatch",
+        "electronics"
+      ],
+      "createdAt": "2023-04-05T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "e5f5g5a4-7f8d-4e9e-9a4e-5f6d7e8f9a0e",
+      "name": "Tablet",
+      "description": "10-inch tablet with 64GB storage and Wi-Fi connectivity.",
+      "price": 399.99,
+      "currency": "USD",
+      "category": "Tablets",
+      "brand": "Amazon",
+      "rating": 2.4,
+      "reviewsCount": 150,
+      "availability": "In Stock",
+      "images": [
+        "/images/tablet.webp"
+      ],
+      "tags": [
+        "tablet",
+        "electronics",
+        "mobile"
+      ],
+      "createdAt": "2023-05-15T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "f6g6h6a5-8g9e-4f0f-9a5e-6f7d8e9f0a1f",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with 12-hour battery life.",
+      "price": 99.99,
+      "currency": "USD",
+      "category": "Audio",
+      "brand": "Bose",
+      "rating": 1.3,
+      "reviewsCount": 200,
+      "availability": "In Stock",
+      "images": [
+        "/images/speaker.webp"
+      ],
+      "tags": [
+        "audio",
+        "speaker",
+        "wireless"
+      ],
+      "createdAt": "2023-06-10T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "g7h7i7a6-9h0f-4g1g-9a6e-7f8d9e0f1a2g",
+      "name": "Gaming Console",
+      "description": "Next-gen gaming console with 1TB storage.",
+      "price": 499.99,
+      "currency": "USD",
+      "category": "Gaming",
+      "brand": "Sony",
+      "rating": 4.9,
+      "reviewsCount": 500,
+      "availability": "Out of Stock",
+      "images": [
+        "/images/console.webp"
+      ],
+      "tags": [
+        "gaming",
+        "console",
+        "electronics"
+      ],
+      "createdAt": "2023-07-01T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "h8i8j8a7-0i1g-4h2h-9a7e-8f9d0e1f2a3h",
+      "name": "Digital Camera",
+      "description": "24MP digital camera with 4K video recording.",
+      "price": 599.99,
+      "currency": "USD",
+      "category": "Cameras",
+      "brand": "Canon",
+      "rating": 4.5,
+      "reviewsCount": 220,
+      "availability": "In Stock",
+      "images": [
+        "/images/camera.webp"
+      ],
+      "tags": [
+        "camera",
+        "photography",
+        "electronics"
+      ],
+      "createdAt": "2023-08-15T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "i9j9k9a8-1j2h-4i3i-9a8e-9f0d1e2f3a4i",
+      "name": "Fitness Tracker",
+      "description": "Fitness tracker with heart rate monitor and GPS.",
+      "price": 149.99,
+      "currency": "USD",
+      "category": "Fitness",
+      "brand": "Fitbit",
+      "rating": 4.2,
+      "reviewsCount": 180,
+      "availability": "In Stock",
+      "images": [
+        "/images/fitness.webp"
+      ],
+      "tags": [
+        "wearable",
+        "fitness",
+        "electronics"
+      ],
+      "createdAt": "2023-09-01T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "j0k0l0a9-2k3i-4j4j-9a9e-0f1d2e3f4a5j",
+      "name": "E-Reader",
+      "description": "E-reader with 8GB storage and adjustable front light.",
+      "price": 129.99,
+      "currency": "USD",
+      "category": "Tablets",
+      "brand": "Amazon",
+      "rating": 4.6,
+      "reviewsCount": 140,
+      "availability": "In Stock",
+      "images": [
+        "/images/reader.webp"
+      ],
+      "tags": [
+        "tablet",
+        "e-reader",
+        "electronics"
+      ],
+      "createdAt": "2023-10-01T08:00:00Z",
+      "updatedAt": "2023-10-01T10:30:00Z"
+    },
+    {
+      "productId": "k1l1m1a0-3l4j-4k5k-9b0e-1f2d3e4f5a6k",
+      "name": "Smart Thermostat",
+      "description": "Wi-Fi enabled smart thermostat with voice control.",
+      "price": 249.99,
+      "currency": "USD",
+      "category": "Smart Home",
+      "brand": "Nest",
+      "rating": 4.7,
+      "reviewsCount": 160,
+      "availability": "Out of Stock",
+      "images": [
+        "/images/thermostat.webp"
+      ],
+      "tags": [
+        "smart home",
+        "thermostat",
+        "electronics"
+      ],
+      "createdAt": "2023-10-05T08:00:00Z",
+      "updatedAt": "2023-10-05T10:30:00Z"
+    },
+    {
+      "productId": "l2m2n2a1-4m5k-4l6l-9b1e-2f3d4e5f6a7l",
+      "name": "Wireless Charger",
+      "description": "Fast wireless charger with 15W output.",
+      "price": 39.99,
+      "currency": "USD",
+      "category": "Accessories",
+      "brand": "Anker",
+      "rating": 3.4,
+      "reviewsCount": 110,
+      "availability": "In Stock",
+      "images": [
+        "/images/charger.webp"
+      ],
+      "tags": [
+        "charger",
+        "wireless",
+        "accessories"
+      ],
+      "createdAt": "2023-10-10T08:00:00Z",
+      "updatedAt": "2023-10-10T10:30:00Z"
+    }
+  ],
+  "categories": [
+    "Electronics",
+    "Computers",
+    "Wearables",
+    "Tablets",
+    "Audio",
+    "Gaming",
+    "Cameras",
+    "Fitness",
+    "Smart Home",
+    "Accessories"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "types": ["node", "jest", "@testing-library/jest-dom", "@testing-library/react", "@tanstack/react-query"],
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "jest.config.js",
+    "lint-staged.config.js",
+    "commitlint.config.cjs"
+  ],
+}
